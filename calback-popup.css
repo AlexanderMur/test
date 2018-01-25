@@ -1,0 +1,97 @@
+/*Form callback*/
+.no-bg {
+  background-color: transparent;
+}
+
+.mfp-close {
+  top: 0;
+}
+
+.call-popup {
+  width: 360px;
+  margin: auto;
+  color: #7d7d7d;
+  background-color: white;
+  padding: 60px 10px;
+  text-align: center;
+  border: 1px solid;
+  position: relative;
+}
+
+.thank_you {
+  text-transform: uppercase;
+  color: #699;
+  font-size: 20px;
+  font-family: Candara, sans-serif;
+  font-weight: 700;
+  display: block;
+}
+
+#callback form .form-title {
+  margin-bottom: 20px;
+  display: block;
+  font-size: 18px;
+}
+
+#callback form .input {
+  margin: 0;
+  position: relative;
+  width: 224px;
+  margin: 19px auto;
+}
+
+#callback form .input.input-invalid {
+  color: red;
+}
+
+#callback form .input.input-invalid .fa {
+  color: red;
+}
+
+#callback form .input.input-invalid input::-webkit-input-placeholder {
+  color: red;
+}
+
+#callback form .input.input-invalid input:-moz-placeholder {
+  color: red;
+}
+
+#callback form .input.input-invalid input::-moz-placeholder {
+  color: red;
+}
+
+#callback form .input.input-invalid input:-ms-input-placeholder {
+  color: red;
+}
+
+#callback form .input .fa {
+  position: absolute;
+  z-index: 1;
+  top: 19px;
+  left: 20px;
+  color: #699;
+}
+
+#callback form input[type="text"] {
+  padding: 10px 10px 10px 40px;
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid black;
+}
+
+#callback form input[type="submit"] {
+  background-color: #699;
+  color: white;
+  display: block;
+  margin: 40px auto 30px auto;
+  width: 224px;
+}
+
+#callback form input[type="submit"]:hover {
+  background-color: transparent;
+  color: black;
+}
+
+#callback form *[role="alert"] {
+  display: none !important;
+}
